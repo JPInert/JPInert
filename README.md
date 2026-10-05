@@ -27,7 +27,7 @@ Everything here is a work in progress. If a README says something works, I ran i
 | [claude-code-skills](https://github.com/JPInert/claude-code-skills) | Nine skills from my own Claude Code setup, each keeping the mistakes that shaped it: session handoff, chat branching, a Pi reflash with no card reader, a Debian dual-boot with no USB stick, and more. |
 | [linux-drills](https://github.com/JPInert/linux-drills) | A hands-on Linux break-fix lab: 41 Docker scenarios that break real boxes (systemd, networking, Docker, GPU) and prove the fix. Every scenario is self-tested before it ships. |
 | [codex-image](https://github.com/JPInert/codex-image) | Real image generation for Claude Code through Codex, so it stops drawing icons in code. |
-| [userscripts](https://github.com/JPInert/userscripts) | Read-only Walmart helper that walks our meal plan list and checks the cart. |
+| [userscripts](https://github.com/JPInert/userscripts) | A clipboard history that follows me across every tab, and a read-only Walmart helper that walks our meal plan list and audits the cart. |
 
 ## How I build
 
