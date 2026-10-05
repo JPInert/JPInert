@@ -1,8 +1,17 @@
 # JPInert
 
-I majored in programming, built websites in PHP for 10 years, and wrote plenty of programs in C++ before that. These days I'm an IT engineer: I troubleshoot the network, fix the machines, handle purchasing and get the right hardware to the right person, enroll tablets in MDM and design the MDM profiles, and build Grafana dashboards. On top of that I build automation with AI agents, at work and at home. I care most about whether a thing is cheap to run, safe, and still working a month later. Most of these started as something I wanted at home.
+**Engineer. I build automation that runs every day, and I can show you the numbers.**
 
-Everything here is a work in progress. If a README says it works, I ran it. If I didn't, it says that.
+I majored in programming, spent 10 years building websites in PHP, and wrote C++ programs for years before that. Today I'm the IT engineer people go to for everything: I troubleshoot the network, keep the machines running, own purchasing and get the right hardware to the right person, design MDM profiles and enroll the tablet fleet, and build Grafana dashboards to see problems before users do.
+
+On top of that I design and ship AI-agent systems, at work and at home. Not demos. Real tools with cost routing, permission gates, tests, and production logs behind every claim:
+
+- A voice assistant that handled **238 commands in four weeks, 76% of them with no model call at all**, and asks out loud before it changes anything.
+- A custom wake word running on a phone's **low-power audio DSP**, built by working out Qualcomm's own model toolchain.
+- My own **Tesla Fleet API** app with signed vehicle commands and a watchdog that never polls the car awake.
+- Android widgets I **redesign remotely on a phone with no root**, which I wasn't sure could be done.
+
+Everything here is a work in progress. If a README says something works, I ran it. If I didn't, it says so.
 
 ## Projects
 
@@ -21,4 +30,4 @@ Everything here is a work in progress. If a README says it works, I ran it. If I
 
 ## How I build
 
-I build with Claude Code and say so in every repo. I design it, review the code, test it on the real thing, and the numbers in the READMEs come from my own logs.
+I build with Claude Code as a force multiplier and say so in every repo. I design the system, review the code, test it on the real hardware, and every number in these READMEs comes from my own logs with its sample size.
