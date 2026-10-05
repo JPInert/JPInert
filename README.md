@@ -1,6 +1,6 @@
 # JPInert
 
-I work in IT support and build automation on the side, mostly with AI agents. I care most about whether a thing is cheap to run, safe, and still working a month later. Most of these started as something I wanted at home.
+I majored in programming, built websites in PHP for 10 years, and wrote plenty of programs in C++ before that. These days I work in IT support and build automation with AI agents, at work and at home. I care most about whether a thing is cheap to run, safe, and still working a month later. Most of these started as something I wanted at home.
 
 Everything here is a work in progress. If a README says it works, I ran it. If I didn't, it says that.
 
@@ -20,4 +20,4 @@ Everything here is a work in progress. If a README says it works, I ran it. If I
 
 ## How I build
 
-I build with Claude Code and say so in every repo. I decide what it should do, test it on the real thing, and the numbers in the READMEs come from my own logs.
+I build with Claude Code and say so in every repo. I design it, review the code, test it on the real thing, and the numbers in the READMEs come from my own logs.
