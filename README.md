@@ -1,6 +1,6 @@
 # JPInert
 
-I majored in programming, built websites in PHP for 10 years, and wrote plenty of programs in C++ before that. These days I work in IT support and build automation with AI agents, at work and at home. I care most about whether a thing is cheap to run, safe, and still working a month later. Most of these started as something I wanted at home.
+I majored in programming, built websites in PHP for 10 years, and wrote plenty of programs in C++ before that. These days I'm an IT engineer: I troubleshoot the network, fix the machines, handle purchasing and get the right hardware to the right person, enroll tablets in MDM and design the MDM profiles, and build Grafana dashboards. On top of that I build automation with AI agents, at work and at home. I care most about whether a thing is cheap to run, safe, and still working a month later. Most of these started as something I wanted at home.
 
 Everything here is a work in progress. If a README says it works, I ran it. If I didn't, it says that.
 
