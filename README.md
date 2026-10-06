@@ -18,6 +18,7 @@ Everything here is a work in progress. If a README says something works, I ran i
 | Project | What it is |
 |---|---|
 | [voice-agent-router](https://github.com/JPInert/voice-agent-router) | The brain of my "computer" voice assistant. Each request goes to the cheapest thing that can handle it: no model, Claude Haiku, or an agent that asks me out loud before it changes anything. About 3 in 4 commands never use a model. |
+| [helpdesk-agent-kit](https://github.com/JPInert/helpdesk-agent-kit) | An AI agent for an IT help desk queue: reads Zendesk tickets and their screenshots, looks people up in an admin portal with no API, fixes the common cases in a real browser, and drafts replies a second model checks. A clean-room rewrite of one I built at work, with a mock portal so you can run it. |
 | [talk2code](https://github.com/JPInert/talk2code) | Talk to a real Claude Code session in my terminal and hear the replies, so I can keep coding away from the keyboard. |
 | [android-dsp-wakeword](https://github.com/JPInert/android-dsp-wakeword) | My own "computer" wake word on my phone's low-power audio chip. Screen off, no app, no "Hey Google". |
 | [tesla-fleet-voice](https://github.com/JPInert/tesla-fleet-voice) | My own Tesla Fleet API app. Voice commands for the car, and alerts when charging is done or it's left unlocked, without polling it awake. |
