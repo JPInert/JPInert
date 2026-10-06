@@ -37,7 +37,7 @@ I work with AI coding agents the way a lead works with a team: I pick the right 
 | Tool | How I use it |
 |---|---|
 | **Claude Code** (Fable and Opus for most of my code) | My main driver, extended with my own skills, hooks and a session-handoff system so long builds survive across chats |
-| **Codex CLI** | A second agent with its own strengths, including real image generation for app art ([codex-image](https://github.com/JPInert/codex-image)) |
+| **Codex CLI** (Astra and Sol) | A second agent with its own strengths, including real image generation for app art ([codex-image](https://github.com/JPInert/codex-image)) |
 | **opencode** and **oh-my-pi** | Model-agnostic harnesses I configure myself, so I can run the same work on open models when it makes more sense |
 | **Kimi K3, DeepSeek V4 Pro, GLM** | Frontier open-weight models for fast, cheap bulk work and for cross-checking another model's answer |
 
