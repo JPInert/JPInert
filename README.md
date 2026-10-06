@@ -32,4 +32,13 @@ Everything here is a work in progress. If a README says something works, I ran i
 
 ## How I build
 
-I build with Claude Code as a force multiplier and say so in every repo. I design the system, review the code, test it on the real hardware, and every number in these READMEs comes from my own logs with its sample size.
+I work with AI coding agents the way a lead works with a team: I pick the right tool and model for each job, and I own the result.
+
+| Tool | How I use it |
+|---|---|
+| **Claude Code** (Opus, Sonnet, Haiku) | My main driver, extended with my own skills, hooks and a session-handoff system so long builds survive across chats |
+| **Codex CLI** | A second agent with its own strengths, including real image generation for app art ([codex-image](https://github.com/JPInert/codex-image)) |
+| **opencode** and **oh-my-pi** | Model-agnostic harnesses I configure myself, so I can run the same work on open models when it makes more sense |
+| **Kimi K3, DeepSeek V4 Pro, GLM** | Frontier open-weight models for fast, cheap bulk work and for cross-checking another model's answer |
+
+The agents write a lot of the code. The engineering is mine: I design the system, break up the work, review every change, test it on the real hardware, and every number in these READMEs comes from my own logs with its sample size.
