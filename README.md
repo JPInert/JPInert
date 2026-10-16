@@ -30,7 +30,7 @@ Everything here plugs into one voice assistant: say "computer" in the room or to
 
 | Project | What it is |
 |---|---|
-| [helpdesk-agent-kit](https://github.com/JPInert/helpdesk-agent-kit) | An AI agent for an IT help desk queue: reads Zendesk tickets and their screenshots, looks people up in an admin portal with no API, fixes the common cases in a real browser, and drafts replies a second model checks. A clean-room rewrite of one I built at work, with a mock portal so you can run it. |
+| [helpdesk-agent-kit](https://github.com/JPInert/helpdesk-agent-kit) | An AI agent for an IT help desk queue: reads Zendesk tickets and their screenshots, looks people up in an admin portal with no API, fixes the common cases in a real browser, and drafts replies a second model checks. Checks several back-office systems per ticket, diagnoses with deterministic rules, fixes each record at most once, and drafts a new rule for me to approve when it meets an issue it has not seen. A clean-room rewrite of one I built at work, with mock systems so you can run it (261 tests). |
 | [live-browser-agent](https://github.com/JPInert/live-browser-agent) | Lets an agent see the browser tab I actually have open when a site breaks, without the automation flag that gets you blocked. |
 | [claude-code-skills](https://github.com/JPInert/claude-code-skills) | Nine skills from my own Claude Code setup, each keeping the mistakes that shaped it: session handoff, chat branching, a Pi reflash with no card reader, a Debian dual-boot with no USB stick, and more. |
 | [codex-image](https://github.com/JPInert/codex-image) | Real image generation for Claude Code through Codex, so it stops drawing icons in code. |
