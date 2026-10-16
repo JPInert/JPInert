@@ -52,9 +52,24 @@ I work with AI coding agents the way a lead works with a team: I pick the right 
 
 | Tool | How I use it |
 |---|---|
-| **Claude Code** (Fable and Opus for most of my code) | My main driver, extended with my own skills, hooks and a session-handoff system so long builds survive across chats |
+| **oh-my-pi** (my daily driver) | A model-agnostic harness where I set the routing policy myself: each kind of work goes to the model that suits it, and a cheap model never touches the hard problems. Details below. |
+| **Claude Code** (Fable and Opus for the heaviest code) | My tool for long builds, extended with my own skills, hooks and a session-handoff system so work survives across chats. The same skills load in oh-my-pi, so nothing I built is locked to one tool. |
 | **Codex CLI** (Astra and Sol) | A second agent with its own strengths, including real image generation for app art ([codex-image](https://github.com/JPInert/codex-image)) |
-| **opencode** and **oh-my-pi** | Model-agnostic harnesses I configure myself, so I can run the same work on open models when it makes more sense |
+| **opencode** | A second open harness I use to test the same work on open models |
 | **Kimi K3, DeepSeek V4 Pro, GLM** | Frontier open-weight models for fast, cheap bulk work and for cross-checking another model's answer |
+
+### Model routing in oh-my-pi
+
+I treat model choice as an engineering decision, the same way the voice router treats it: spend the expensive reasoning only where it pays off.
+
+| Job | Model tier | Why |
+|---|---|---|
+| Planning and hard debugging | Claude Opus | Mistakes here cost the most, so this gets the strongest reasoning |
+| Everyday coding | Claude Sonnet | Fast and strong enough for most edits |
+| Commit messages, summaries, quick classification | DeepSeek V4 Flash | Cheap and fast, with Claude Haiku as the backup |
+| Reading screenshots and images | A vision-capable Codex model | Routed by capability, not by habit |
+| Web lookups | Gemini Flash | Long fallback chain across search providers so a lookup never just fails |
+
+Each role has its own **fallback chain** (for example Opus work falls back to a Codex model, then DeepSeek V4 Pro), and usage-aware fallback switches models before a quota runs dry, keeping 10% in reserve. Long jobs fan out to parallel sub-agents, and my Gmail and Calendar tools plug in over MCP. It is the same idea as the voice assistant above: the cheapest thing that can do the job does it, and a stronger one steps in when it cannot.
 
 The agents write a lot of the code. The engineering is mine: I design the system, break up the work, review every change, test it on the real hardware, and every number in these READMEs comes from my own logs with its sample size.
