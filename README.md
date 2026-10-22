@@ -2,7 +2,7 @@
 
 **Engineer. I build automation that runs every day, and I can show you the numbers.**
 
-I majored in programming, spent 10 years building websites in PHP, and wrote C++ programs for years before that. Today I'm the IT engineer people go to for everything: I troubleshoot the network, keep the machines running, own purchasing and get the right hardware to the right person, design MDM profiles and enroll the tablet fleet, and build Grafana dashboards to see problems before users do.
+I majored in programming, spent years building websites in PHP, wrote C++ programs for years before that, and have built apps in Python. Today I'm the IT engineer people go to for everything: I troubleshoot the network, keep the machines running, own purchasing and get the right hardware to the right person, design MDM profiles and enroll the tablet fleet, and build Grafana dashboards to see problems before users do.
 
 On top of that I design and ship AI-agent systems, at work and at home. Not demos. Real tools with cost routing, permission gates, tests, and production logs behind every claim:
 
@@ -40,7 +40,7 @@ Everything here plugs into one voice assistant: say "computer" in the room or to
 | Project | What it is |
 |---|---|
 | [gmaps-layers](https://github.com/JPInert/gmaps-layers) | Finds things to do around a Supercharger while we charge. Works for any "X near each Y". |
-| [tasker-remote-widgets](https://github.com/JPInert/tasker-remote-widgets) | Car battery widget on my wife's phone that I change from my desktop. No root, no re-importing. Wasn't sure it could be done, it works perfectly. |
+| [tasker-remote-widgets](https://github.com/JPInert/tasker-remote-widgets) | Car battery widget on an unrooted Android phone that I change from my desktop. No root, no re-importing. Wasn't sure it could be done, it works perfectly. |
 | [linux-drills](https://github.com/JPInert/linux-drills) | A hands-on Linux break-fix lab: 41 Docker scenarios that break real boxes (systemd, networking, Docker, GPU) and prove the fix. Every scenario is self-tested before it ships. |
 | [userscripts](https://github.com/JPInert/userscripts) | Canned replies for Zendesk with an AI rewrite that never clobbers what I typed, a clipboard history that follows me across every tab, and a read-only Walmart meal-plan helper. |
 | [meetcap](https://github.com/JPInert/meetcap) | Live captions of the other side of a call, a jargon panel for technical terms, and notes plus timing metrics afterwards. It records the sound card instead of joining the meeting. Measured on a replayed clip: 6.7 to 8.3% word error, captions about 1.6 to 2.8 s behind. In testing, not yet tried on a real call. |
